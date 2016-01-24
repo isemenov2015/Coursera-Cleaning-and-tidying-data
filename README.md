@@ -1,5 +1,5 @@
 # Coursera-Cleaning-and-tidying-data
- Coursera Cleaning and tidying data course work for course #3 from John Hopkins University data science specialization
+## Coursera Cleaning and tidying data course work for course #3 from John Hopkins University data science specialization
 
 Dataset based on an data obtained from experiment with human activity recognition using smartphones.
 
@@ -23,6 +23,7 @@ Following packages available from CRAN must be installed in the local R environm
 
 run_analysis.r automatically downloads raw data using provided link and creates tidyset.csv in current R working
 directory.
+
 
 Script creates 'UCI HAR Dataset' subdirectory in current R directory with raw data files.
 
