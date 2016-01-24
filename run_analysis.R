@@ -12,7 +12,7 @@ getsets <- function(furl = '') {
     unzip(zipfile)
     unlink(zipfile)
 }
-
+ 
 fileurl <- 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
 
 #debug Uncomment function call before submitting
