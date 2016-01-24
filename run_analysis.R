@@ -16,7 +16,7 @@ getsets <- function(furl = '') {
 fileurl <- 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
 
 #debug Uncomment function call before submitting
-#getsets(fileurl)
+getsets(fileurl)
 #end debug
 
 #read all datasets into data frames
