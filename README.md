@@ -10,10 +10,10 @@ Raw data for processing were downloaded from the link provided in course work as
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 Project files description:
-*readme.md 	- this file
-*CodeBook.md 	- description of result dataset variables
-*run_analysis.r 	- R script that was implemented to obtain result tidy dataset
-*tidyset.csv	- tidy dataset that is a goal of an assignment
+- readme.md 	- this file
+- CodeBook.md 	- description of result dataset variables
+- run_analysis.r 	- R script that was implemented to obtain result tidy dataset
+- tidyset.csv	- tidy dataset that is a goal of an assignment
 
 
 Notes. 
