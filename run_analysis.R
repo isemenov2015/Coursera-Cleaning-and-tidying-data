@@ -12,7 +12,7 @@ getsets <- function(furl = '') {
     unzip(zipfile)
     unlink(zipfile)
 }
- 
+
 fileurl <- 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
 
 #debug Uncomment function call before submitting
@@ -73,4 +73,4 @@ mean_set <- group_by(res_set_df, personid, activities) %>% summarise_each(funs(m
 names(mean_set) <- tolower(gsub('\\(\\)|-', '', names(mean_set)))
 
 #write dataset on a disc
-write.csv(mean_set, file = 'tidyset.csv', row.names = FALSE)
+write.table(mean_set, file = 'tidyset.txt', row.names = FALSE)
