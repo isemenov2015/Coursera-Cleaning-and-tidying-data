@@ -19,7 +19,7 @@ Project files description:
 Notes. 
 Following packages available from CRAN must be installed in the local R environment in order to run run_analysis.r:
 - dplyr
-- downloader
+- downloader 
 
 run_analysis.r automatically downloads raw data using provided link and creates tidyset.csv in current R working
 directory.
